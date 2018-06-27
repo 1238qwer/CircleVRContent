@@ -5,6 +5,7 @@ using UnityEngine;
 public class Player : MonoBehaviour {
 
     [SerializeField] private float moveSpeed;
+    [SerializeField] private GameObject rig;
 	// Use this for initialization
 	void Start () {
 		
@@ -14,11 +15,13 @@ public class Player : MonoBehaviour {
 	void Update () {
 		if (Input.GetKey(KeyCode.W))
         {
-            transform.Translate(0, 0, moveSpeed * Time.deltaTime);
+            transform.Translate(rig.transform.forward * moveSpeed * Time.deltaTime);
+            //transform.Translate(0, 0, moveSpeed * Time.deltaTime);
         }
         if (Input.GetKey(KeyCode.S))
         {
-            transform.Translate(0, 0, -moveSpeed * Time.deltaTime);
+            transform.Translate(-rig.transform.forward * moveSpeed * Time.deltaTime);
+            //transform.Translate(0, 0, -moveSpeed * Time.deltaTime);
         }
     }
 }

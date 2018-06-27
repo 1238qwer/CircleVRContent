@@ -1715,6 +1715,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 2
+  rig: {fileID: 1182275174}
 --- !u!1 &1760967318
 GameObject:
   m_ObjectHideFlags: 0

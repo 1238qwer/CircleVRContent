@@ -1,0 +1,27 @@
+{
+    "displays":
+    [
+        {
+            "ID":"display1",
+            "fov":60.0,
+            "aspectRatio":1.77,
+            "rect":{"serializedVersion":"2","x":0.0,"y":0.5,"width":0.5,"height":0.5},
+            "targetDisplayIndex":0
+        },
+        {
+            "ID":"display2",
+            "fov":60.0,
+            "aspectRatio":1.77,
+            "rect":{"serializedVersion":"2","x":0.5,"y":0.5,"width":0.5,"height":0.5},
+            "targetDisplayIndex":0
+        },
+		{
+            "ID":"observer",
+            "fov":60.0,
+            "aspectRatio":1.77,
+            "rect":{"serializedVersion":"2","x":0.5,"y":0.0,"width":0.5,"height":0.5},
+            "targetDisplayIndex":0
+        }
+    ]
+}
+

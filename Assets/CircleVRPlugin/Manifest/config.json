@@ -1,0 +1,21 @@
+{
+	"circlevr" :{
+		"pairs": [
+		{
+			"userID": "0",
+			"trackerID": "LHR-1FC13069"
+		},
+		{
+			"userID": "1",
+			"trackerID": "LHR-0DDC4FEA"
+		}
+		],
+		"commands": [
+		"Play","Pause" ,"Next", "Stop"
+		],
+
+		"safetyBarrierRadius": 3.0,
+		"showBarrier": false
+	}
+}
+
